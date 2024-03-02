@@ -1,0 +1,22 @@
+# Ignore compiled Python files
+*.pyc
+
+# Ignore output files
+languageIdentification.output
+preprocess.output
+
+# Ignore any temporary files or directories
+__pycache__
+.idea/
+.vscode/
+
+# Ignore any data files or directories that are generated or used during runtime
+languageIdentification.data/solution/
+languageIdentification.data/test/
+languageIdentification.data/training/
+preprocess.answers
+subset1/
+subset2/
+cranfieldDocs/
+
+# Ignore Virtual Python Environment (dependicies local to the author's machine)
